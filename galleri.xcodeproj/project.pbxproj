@@ -184,9 +184,10 @@
 		7B1A0E431C3F58E6000A0AE3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = io.pumpkinz.galleri;
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = "Agustinus Kristiadi";
+				ORGANIZATIONNAME = Pumpkinz;
 				TargetAttributes = {
 					7B1A0E4A1C3F58E6000A0AE3 = {
 						CreatedOnToolsVersion = 7.2;
@@ -387,7 +388,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = galleri/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.thirdworldnomad.galleri;
+				PRODUCT_BUNDLE_IDENTIFIER = io.pumpkinz.galleri;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -399,7 +400,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = galleri/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.thirdworldnomad.galleri;
+				PRODUCT_BUNDLE_IDENTIFIER = io.pumpkinz.galleri;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -475,6 +476,7 @@
 				7B1A0E721C3F58E6000A0AE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B1A0E731C3F58E6000A0AE3 /* Build configuration list for PBXNativeTarget "galleriTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +485,7 @@
 				7B1A0E751C3F58E6000A0AE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B1A0E761C3F58E6000A0AE3 /* Build configuration list for PBXNativeTarget "galleriUITests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +494,7 @@
 				7B1A0E781C3F58E6000A0AE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
